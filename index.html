@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>
+        Student admission
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid box">
+        <div class="row>">
+            <h1 class='heading hcol'><center>Student Registration Form</center></h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6 innerbox1">
+                <form action="/action_page.php " width='100%'>
+                    <div class="form-group">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" class="form-control" id="firstname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" class="form-control" id="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactnumber">Contact Number:</label>
+                        <input type="input" class="form-control" id="contactnumber">
+                    </div>
+                    <div class="form-group">
+                        <div class='col-md-6'>
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class='col-md-6'>
+                            <label for="cnpwd">Confirm:</label>
+                            <input type="password" class="form-control" id="cnpwd">
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <label> Gender
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio"> Male</label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio">Female</label>
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-class">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6  innerbox2">
+                <img width='100%' height='70%' src='./Images/frontpic3.jpg' />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
